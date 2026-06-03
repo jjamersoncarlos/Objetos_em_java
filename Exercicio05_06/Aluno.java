@@ -1,4 +1,6 @@
-public class Aluno2 {
+package Exercicio05_06;
+
+public class Aluno {
 
     String nome;
     double nota1;
@@ -17,5 +19,4 @@ public class Aluno2 {
             return "Reprovado";
         }
     }
-    
 }

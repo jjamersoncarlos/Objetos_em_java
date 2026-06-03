@@ -1,3 +1,5 @@
+package Exercicio09_10;
+
 import java.util.Scanner;
 
 public class Mainaluno3 {
@@ -15,9 +17,8 @@ public class Mainaluno3 {
         double maiorMedia = 0;
         double menorMedia = 0;
 
-
         for (int i = 1; i <= quantidade; i++) {
-            Aluno aluno = new Aluno();
+            Aluno3 aluno = new Aluno3();
 
             System.out.println("\nAluno " + i);
 
@@ -33,7 +34,7 @@ public class Mainaluno3 {
 
             double media = aluno.calcularMedia();
 
-             if (i == 1) {
+            if (i == 1) {
                 maiorMedia = media;
                 menorMedia = media;
 
@@ -54,7 +55,6 @@ public class Mainaluno3 {
 
         System.out.println("\n===== RESULTADO =====");
 
-
         System.out.println("\nAluno com maior média:");
         System.out.println("Nome: " + nomeMaiorMedia);
         System.out.printf("Média: %.2f%n", maiorMedia);
@@ -65,5 +65,5 @@ public class Mainaluno3 {
 
         scanner.close();
     }
-    
+
 }

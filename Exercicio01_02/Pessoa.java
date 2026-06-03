@@ -1,3 +1,5 @@
+package Exercicio01_02;
+
 public class Pessoa {
 
     String nome;

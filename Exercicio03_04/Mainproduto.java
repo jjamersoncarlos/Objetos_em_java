@@ -1,3 +1,5 @@
+package Exercicio03_04;
+
 import java.util.*;
 
 public class Mainproduto {

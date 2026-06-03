@@ -1,3 +1,5 @@
+package Exercicio07_08;
+
 import java.util.Scanner;
 
 public class Mainaluno2 {
@@ -13,7 +15,7 @@ public class Mainaluno2 {
         scanner.nextLine();
 
         for (int i = 1; i <= quantidade; i++) {
-            Aluno aluno = new Aluno();
+            Aluno2 aluno = new Aluno2();
 
             System.out.println("\nCadastro do aluno " + i);
 

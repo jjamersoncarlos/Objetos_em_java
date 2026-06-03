@@ -1,3 +1,5 @@
+package Exercicio05_06;
+
 import java.util.Scanner;
 
 public class Mainaluno {
