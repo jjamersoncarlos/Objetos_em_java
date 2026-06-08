@@ -2,8 +2,8 @@ package Exercicio25;
 
 public class ContaBancaria {
 
-    String titular;
-    double saldo;
+    private String titular;
+    private double saldo;
 
     public ContaBancaria(String titular) {
         this.titular = titular;
@@ -27,10 +27,9 @@ public class ContaBancaria {
         }
     }
 
-    
     public void mostrarSaldo() {
         System.out.println("Titular: " + titular);
         System.out.println("Saldo: R$ " + saldo);
     }
-    
+
 }
